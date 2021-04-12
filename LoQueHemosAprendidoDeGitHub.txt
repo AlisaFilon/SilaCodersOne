@@ -1,0 +1,17 @@
+1. git clone :
+-Nos permite descargar un repositorio y sincronizarnos con un remote (repositorio remoto)
+2. git pull :
+-Descargar los últimos cambios que alguien ha podido subir
+3. git add :
+-Seleccionar aquellos cambios que vamos a querer añadir al commit
+4. git status :
+-Saber qué cambios tenemos en el repositorio local, listos (o no) para subir
+5. git commit :
+-Subir nuestros cambios del repositorio local al remoto
+6. git push :
+-Descargar los últimos cambios que alguien ha podido subir
+**link de GoogleDocs :
+https://docs.google.com/presentation/d/1-dqHXGSseIsX5MzY_zp-2j9-FDq55icWjfwAqkfyJfQ/edit#slide=id.p
+
+
+
