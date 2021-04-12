@@ -18,3 +18,9 @@ intento de nuevo maria laura
 Soy Nicole y son a las 0:37 y aun no puedo dormir!
 Pero me alegra que todas pudimos hacer el pull clone y push!
 Próxima sera tocar codigo chicas <3
+
+soy nicole otra vez pues seria bueno escribir que es lo que hemos aprendido.
+-git clone (url) para clonar el repositorio
+-git add (name) example: git add README.txt
+-git commit -m "mwahahah"
+-git push
