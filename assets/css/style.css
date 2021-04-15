@@ -33,9 +33,28 @@ body{
 .descripcion {
     font-family: calibri;
     margin:0px;
+
     }
 
 .miembros {
     font-family: calibri;
     margin:0px 10px;
+    display:flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.miembro1 {
+    flex-grow: 1;
+}
+.miembro2 {
+    flex-grow: 1;
+}
+.miembro3 {
+    flex-grow: 1;
+}
+.miembro4 {
+    flex-grow: 1;
+}
+.miembro5 {
+    flex-grow: 1;
 }
