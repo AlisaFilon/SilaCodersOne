@@ -14,7 +14,7 @@ body{
 /*BANNER*/
 .banner{
     background-color: darkslateblue;
-    height: 80px;
+    height: 60px;
 }
 .logo{
     justify-content:flex-start;
@@ -29,3 +29,11 @@ body{
     height: 250px;
 }
 /*DESCRIPCION*/
+
+.descripcion {
+    font-family: calibri;
+    }
+
+.miembros {
+    font-family: calibri;
+}
