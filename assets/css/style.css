@@ -32,8 +32,10 @@ body{
 
 .descripcion {
     font-family: calibri;
+    margin:0px;
     }
 
 .miembros {
     font-family: calibri;
+    margin:0px 10px;
 }
