@@ -1,0 +1,27 @@
+/*  Alisa Filoneko (Diseño)
+    background: #b5bdc8;
+    background: linear-gradient(to top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 20px;
+    color:aqua; */
+
+body{
+    margin: 0px;
+}
+/*BANNER*/
+.banner{
+    background-color: darkslateblue;
+    height: 80px;
+}
+.logo{
+    justify-content:flex-start;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+
+}
+/*DESCRIPCION*/
