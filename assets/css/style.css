@@ -37,11 +37,14 @@ body{
     }
 
 .miembros {
-    font-family: calibri;
-    margin:0px 10px;
     display:flex;
-    justify-content: space-around;
-    border-radius: 10px;
+    font-family: calibri;
+    justify-content: space-evenly;
+    border:3px solid grey;
+    margin: 10px;
+    border-radius: 800px;
+    overflow: hidden;
+    padding: 10px;
 }
 .miembro1 {
     flex-grow: 1;
