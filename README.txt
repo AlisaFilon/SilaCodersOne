@@ -16,8 +16,3 @@ Alisa holiii
 
 intento de nuevo maria laura
 
-soy nicole otra vez, son la 1:35am y no puedo dormir :')
-y me puse a pensar que sería bueno escribir que es lo que hemos aprendido el dia 12/04/2021 de Github.
-Agregué un nuevo archivo que se llama "LoQueHemosAprendidoDeGitHub.txt"
-Haced un [[ git pull ]] para actualizar la carpeta, si no os sale, haced una Git Clone en una carpeta nueva
-y borráis la antigua.
