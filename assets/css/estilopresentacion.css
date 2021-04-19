@@ -88,27 +88,15 @@ body{
     /*border:3px solid grey;*/
     /*border-radius: 500px;*/
 }
-.miembros2 {
+.miembros{
     display:flex;
     font-family: calibri;
     justify-content: space-evenly;
     align-self: flex-start;
     text-align: center;
+    flex-wrap: wrap;
 }
-.miembros1 img{
-    max-width: 100%;
-    max-height: 100%;
-    min-width: auto;
-    min-height: auto;
-    width: 250px;
-    height: 250px;
-    display: flex;
-    justify-content: space-evenly;
-    border: 0 px solid black;
-    border-radius: 500px;
-    border: 1px ;
-} 
-.miembros2 img {
+.miembros img {
     max-width: 100%;
     max-height: 100%;
     min-width: auto;
