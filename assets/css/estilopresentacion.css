@@ -39,18 +39,22 @@ body{
     width: 300px;
     height: 60px;
     margin-right: 10px;
-    
-
+    text-decoration: none;
 
 }
+
 .quienessomos , .quehacemos {
     padding: 15px 32px;
     transition-duration: 0.4s;
-    background-color:#613E3E;
+    background-color:#AF473C;
     text-align: center;
     cursor: pointer;
     color: white;
     border: 0px;
+    text-decoration: none;
+    box-shadow: 0 -3px #7f2121 inset;
+    transition: 0.2s;
+
 }
 
 .quienessomos:hover , .quehacemos:hover {
@@ -104,7 +108,7 @@ body{
     height: 250px;
     display: flex;
     justify-content: space-evenly;
-    border: 0 px solid black;
+    border: 0px solid black;
     border-radius: 500px;
     border: 1px ;
 } 
@@ -117,7 +121,7 @@ body{
     height: 250px;
     display: flex;
     justify-content: space-evenly;
-    border: 0 px solid black;
+    border: 0px solid black;
     border-radius: 500px;
     border: 1px ;
 }
