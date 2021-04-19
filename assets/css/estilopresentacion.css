@@ -120,8 +120,10 @@ body{
 
 #logoslink {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 #links img {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 }
