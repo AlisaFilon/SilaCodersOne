@@ -1,77 +1,123 @@
-/*  Alisa Filoneko (Diseño)
-    background: #b5bdc8;
-    background: linear-gradient(to top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
-    font-size: 16px;
-    padding: 10px 20px;
-    color: #fff;
-    border: 1px solid #333;
-    border-radius: 20px;
-    color:aqua; */
 
-body {
-    margin: 0px;
-    height: 700px;
-    width: ;
+body{
+    margin:auto;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%; 
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #E8D9D4;
+}
+/*imagen background y contenido*/
+.content {
+    position: fixed;
+    z-index: 9999;
 }
 /*BANNER*/
 .banner {
-    background-color: darkslateblue;
+    background-color:#613E3E;
     height: 60px;
+    display: flex;
 }
 .logo {
-    justify-content:flex-start;
-
+    display: flex;
+    margin-left: 10px;
+}
+.logo p{
+    font-weight: bold;
+    letter-spacing: 6px;
+    font-size: 22px;
+    color: aliceblue;
+    margin-left: 10px;
+  
 }
 .button {
     display: flex;
-    justify-content: flex-end;
-    align-content: flex-start;
+    position:fixed;
+    right: 20px;
+    width: 300px;
+    height: 60px;
+    margin-right: 10px;
     
-}
-.miembros img {
-    width: 250px;
-    height: 250px;
-    justify-content: space-evenly;
-/ border: 0 px solid black;
-    border-radius: 500px;
-    box-shadow: 0px 0px 15px 10px #87CEEB;
-    border: 1px solid #1E90FF;
-}
-/*DESCRIPCION*/
 
+
+}
+.quienessomos , .quehacemos {
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+    background-color:#613E3E;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    border: 0px;
+}
+
+.quienessomos:hover , .quehacemos:hover {
+    background-color:  #372323;
+
+} 
+.quienessomos:active , .quehacemos:active {
+    background-color: #372323;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+
+
+/*DESCRIPCION*/
 .descripcion {
     font-family: calibri;
-    margin:0px;
+    margin-left:20px;
+    margin-right: 20px;
     font-size: 18px;
 }
+.descripcion p{
+    position: static;
+    text-align: justify;
+}
 
+/*LISTA DE MIEMBROS*/
 
-.miembros {
+.miembros1 {
     display:flex;
     font-family: calibri;
     justify-content: space-evenly;
+    align-self: flex-start;
     text-align: center;
-
-
     /*border:3px solid grey;*/
     /*border-radius: 500px;*/
 }
-.miembro1 {
-    flex-grow: 1;
-    /*overflow: hidden;*/
+.miembros2 {
+    display:flex;
+    font-family: calibri;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    text-align: center;
 }
-.miembro2 {
-    flex-grow: 1;
+.miembros1 img{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: auto;
+    min-height: auto;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 0 px solid black;
+    border-radius: 500px;
+    border: 1px ;
+} 
+.miembros2 img {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: auto;
+    min-height: auto;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 0 px solid black;
+    border-radius: 500px;
+    border: 1px ;
 }
-.miembro3 {
-    flex-grow: 1;
-}
-.miembro4 {
-    flex-grow: 1;
-}
-.miembro5 {
-    flex-grow: 1;
-}
-
-
-
