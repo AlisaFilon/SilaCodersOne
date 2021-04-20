@@ -7,15 +7,16 @@ body{
     min-width: 100%; 
     max-width: 100%;
     max-height: 100%;
-    background-color: #E8D9D4;
+    background-color: #D7D6D5;
+
 }
 /*imagen background y contenido*/
 .content {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Baloo Bhaina 2', cursive;
 }
 /*BANNER*/
 .banner {
-    background-color: #AF473C;
+    background-color: #5F3F78;
     height: 60px;
     display: flex;
 }
@@ -24,12 +25,13 @@ body{
     margin-left: 10px;
 }
 .logo p{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Baloo Bhaina 2', cursive;
     font-weight: bold;
     letter-spacing: 6px;
     font-size: 22px;
     color: aliceblue;
     margin-left: 10px;
+    margin-bottom: 20px;
   
 }
 .button {
@@ -47,12 +49,12 @@ body{
     font-size: 12px;
     letter-spacing: 0.10;
     text-decoration: none;
-    color: #E8D9D4;
+    color: #D7D6D5;
 }
 .quienessomos , .quehacemos {
     padding: 15px 32px;
     transition-duration: 0.4s;
-    background-color:#AF473C;
+    background-color:#5F3F78;
     text-align: center;
     cursor: pointer;
     color: white;
@@ -62,10 +64,10 @@ body{
     transition: 0.2s;
 }
 .quienessomos:hover , .quehacemos:hover {
-    background-color:  #372323;
+    background-color:  #462D59;
 } 
 .quienessomos:active , .quehacemos:active {
-    background-color: #372323;
+    background-color: #462D59;
     box-shadow: 0 2px #666;
     transform: translateY(4px);
 }
@@ -87,21 +89,25 @@ body{
 /*LISTA DE MIEMBROS*/
 .miembros {
     display:flex;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
     justify-content: space-evenly;
     align-self: flex-start;
-    text-align: center;
 }
 .miembros{
     display:flex;
     justify-content: space-evenly;
     align-self: flex-start;
-    text-align: center;
     flex-wrap: wrap;
+}
+.miembros h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+.miembros p {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
+
 .miembro1 img, .miembro2 img, .miembro3 img, .miembro4 img, .miembro5 img{
     max-width: 100%;
     max-height: 100%;
@@ -114,11 +120,13 @@ body{
     border: 0px solid black;
     border-radius: 500px;
     border: 1px ;
+    box-shadow: 0px 0px 25px 7px #797c7d;
+    border: 1px solid #67696a;
+
 }
 #logoslink {
     display: flex;
     justify-content: flex-start;
-    margin-left: 70px;
 }
 #links-l img, #links-g img {
     width: 20px;
