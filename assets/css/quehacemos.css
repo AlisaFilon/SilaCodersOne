@@ -7,7 +7,6 @@ body{
     max-width: 100%;
     max-height: 100%;
     background-color: #D7D6D5;
-
 }
 /*imagen background y contenido*/
 .content {
@@ -31,17 +30,47 @@ body{
     color: aliceblue;
     margin-left: 10px;
     margin-bottom: 20px;
+}
+.button {
+    display: flex;
+    position:fixed;
+    right: 20px;
+    width: 300px;
+    height: 60px;
+    margin-right: 8px;
+}
+/*letras del botón*/
+.button a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.10;
+    text-decoration: none;
+    color: #D7D6D5;
+}
+.quienessomos , .quehacemos {
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+    background-color:#5F3F78;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    border: 0px;
+    text-decoration: none;
+    box-shadow: 0 -0px #7f2121 inset;
+    transition: 0.2s;
+}
+.quienessomos:hover , .quehacemos:hover {
+    background-color:  #462D59;
+}
+.quienessomos:active , .quehacemos:active {
+    background-color: #462D59;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
 
-}
-}
-.article1 {
-    font-family: calibri;
-    font-size: 16px;
-}
-.article2 {
-    font-family: calibri;
-    font-size: 16px;
-}
+/* CONTENIDO */
+
 .leftimg1 {
     float:left;
     margin: 7px 7px 7px 0;
