@@ -120,7 +120,7 @@ body{
 
 #logoslink {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: flex-end;
 }
 #links img {
