@@ -126,8 +126,7 @@ body{
 }
 #logoslink {
     display: flex;
-    justify-content:space-between;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 #links-l img, #links-g img {
