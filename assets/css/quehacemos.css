@@ -1,0 +1,52 @@
+html {
+    background: url("https://i.pinimg.com/originals/cb/2d/e5/cb2de5bbdfa417374b468cf4d984b8ff.jpg");
+}
+body {
+    margin:auto;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background: url("https://i.pinimg.com/originals/cb/2d/e5/cb2de5bbdfa417374b468cf4d984b8ff.jpg");
+}
+/*imagen background y contenido*/
+.header {
+    position: fixed;
+    z-index: 9999;
+}
+/*BANNER*/
+.banner {
+    background-color: #972020;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.logo {
+    display: flex;
+    margin-left: 10px;
+}
+.logo p {
+    font-weight: bold;
+    letter-spacing: 6px;
+    font-size: 22px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+.article1 {
+    font-family: calibri;
+    font-size: 16px;
+}
+.article2 {
+    font-family: calibri;
+    font-size: 16px;
+}
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.rightimg  {
+    float: right; /* Выравнивание по правому краю  */
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
