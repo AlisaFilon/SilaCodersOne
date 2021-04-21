@@ -92,12 +92,12 @@ body{
     justify-content: space-evenly;
     align-self: flex-start;
     margin-left: 60px;
-}
-.miembros{
     display:flex;
     justify-content: space-evenly;
     align-self: flex-start;
     flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .miembros h3 {
     font-family: 'Raleway', sans-serif;
