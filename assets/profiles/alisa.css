@@ -8,11 +8,7 @@ body{
     max-height: 100%;
     background-color: #D7D6D5;
 }
-/*imagen background y contenido*/
-.content {
-    font-family: 'Baloo Bhaina 2', cursive;
-}
-/*BANNER*/
+
 .banner {
     background-color: #5F3F78;
     height: 60px;
@@ -31,46 +27,6 @@ body{
     margin-left: 10px;
     margin-bottom: 20px;
 }
-/* CONTENIDO */
-
-.contenedor {
-    flex-wrap: wrap;
-}
-.content1, .content2, .content3, .content4 {
-    display: flex;
-    justify-content: flex-end;
-}
-/*Заголовок*/
-.content1-texto, .content2-texto, .content3-texto, .content4-texto {
-    font-family: 'Raleway', sans-serif;
-    font-weight: bolder;
-    margin-left:20px;
-    margin-right: 20px;
-    font-size: 18px;
-}
-/*Параграф*/
-.content1-texto p, .content2-texto p, .content3-texto p, .content4-texto p {
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    position: static;
-    text-align: justify;
-    font-size: 18px;
-}
-
-.img1, .img2, .img3, .img4 {
-    /*flex-direction: row;*/
-    min-width: auto;
-    min-height: auto;
-    width: 250px;
-    height: 250px;
-    /*justify-content: space-evenly;*/
-    border: 0px solid black;
-    border: 1px ;
-    box-shadow: 0px 0px 25px 7px #797c7d;
-    border: 1px solid #67696a;
-    margin-right: 15px;
-    margin-top: 10px;
-}
 .button {
     display: flex;
     position:fixed;
@@ -87,7 +43,6 @@ body{
     letter-spacing: 0.10;
     text-decoration: none;
     color: #D7D6D5;
-
 }
 .quienessomos , .volveratras {
     padding: 15px 32px;
@@ -103,11 +58,31 @@ body{
 }
 .quienessomos:hover , .volveratras:hover {
     background-color:  #462D59;
-
 }
 .quienessomos:active , .volveratras:active {
     background-color: #462D59;
     box-shadow: 0 2px #666;
     transform: translateY(4px);
+}
 
+.contenedor {
+    flex-wrap: wrap;
+}
+.content1 {
+    display: flex;
+    justify-content: flex-center;
+}
+.img {
+    /*flex-direction: row;*/
+    min-width: auto;
+    min-height: auto;
+    width: 250px;
+    height: 250px;
+    /*justify-content: space-evenly;*/
+    border: 0px solid black;
+    border: 1px;
+    box-shadow: 0px 0px 25px 7px #797c7d;
+    border: 1px solid #67696a;
+    margin-right: 15px;
+    margin-top: 10px;
 }
