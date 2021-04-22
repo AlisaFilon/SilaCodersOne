@@ -1,0 +1,88 @@
+body{
+    margin:auto;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #D7D6D5;
+}
+
+.banner {
+    background-color: #5F3F78;
+    height: 60px;
+    display: flex;
+}
+.logo {
+    display: flex;
+    margin-left: 10px;
+}
+.logo p{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-weight: bold;
+    letter-spacing: 6px;
+    font-size: 22px;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.button {
+    display: flex;
+    position:fixed;
+    right: 20px;
+    width: 300px;
+    height: 60px;
+    margin-right: 8px;
+}
+/*letras del botón*/
+.button a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.10;
+    text-decoration: none;
+    color: #D7D6D5;
+}
+.quienessomos , .volveratras {
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+    background-color:#5F3F78;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    border: 0px;
+    text-decoration: none;
+    box-shadow: 0 -0px #7f2121 inset;
+    transition: 0.2s;
+}
+.quienessomos:hover , .volveratras:hover {
+    background-color:  #462D59;
+}
+.quienessomos:active , .volveratras:active {
+    background-color: #462D59;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.contenedor {
+    flex-wrap: wrap;
+}
+.content1 {
+    display: flex;
+    justify-content: flex-center;
+}
+.img {
+    /*flex-direction: row;*/
+    min-width: auto;
+    min-height: auto;
+    width: 250px;
+    height: 250px;
+    /*justify-content: space-evenly;*/
+    border: 0px solid black;
+    border: 1px;
+    box-shadow: 0px 0px 25px 7px #797c7d;
+    border: 1px solid #67696a;
+    margin-right: 15px;
+    margin-top: 10px;
+}
