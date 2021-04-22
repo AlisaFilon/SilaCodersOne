@@ -92,6 +92,14 @@ body{
     font-size: 18px;
 }
 
+.descrip a {
+    color: #462D59;
+    font-weight: bolder;
+    font-weight: 800;
+}
+
 .imagenes{
     display: flex;
     justify-content: space-evenly;
+
+}
