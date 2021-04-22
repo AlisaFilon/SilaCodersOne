@@ -148,9 +148,20 @@ body{
 #links-g {
     margin-left:4px;
 }
+<<<<<<< HEAD
 
 @media (min-width: 320px) and (max-width: 480px) {
     .button{
         ;
     }
 }
+=======
+@media (min-width:320px, max-width:480px) {
+    .button {
+        display: none;
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+>>>>>>> 0607e5b5fa7c03abf66d613d27915974eb61b5ee
