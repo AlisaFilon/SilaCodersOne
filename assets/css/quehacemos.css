@@ -31,7 +31,7 @@ body{
 .contenedor {
     flex-wrap: wrap;
 }
-.content1, .content2, .content3, .content4 {
+.service {
     display: flex;
     justify-content: flex-end;
 }
@@ -107,5 +107,4 @@ body{
     background-color: #462D59;
     box-shadow: 0 2px #666;
     transform: translateY(4px);
-
 }
