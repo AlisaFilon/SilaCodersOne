@@ -8,10 +8,6 @@ body{
     max-height: 100%;
     background-color: #D7D6D5;
 }
-/*imagen background y contenido*/
-.content {
-    font-family: 'Baloo Bhaina 2', cursive;
-}
 /*BANNER*/
 .banner {
     background-color: #5F3F78;
@@ -32,7 +28,6 @@ body{
     margin-bottom: 20px;
 }
 /* CONTENIDO */
-
 .contenedor {
     flex-wrap: wrap;
 }
@@ -40,7 +35,11 @@ body{
     display: flex;
     justify-content: flex-end;
 }
-/*Заголовок*/
+/*imagen background y contenido*/
+.content {
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+/*Заголовок*/ /**/
 .content1-texto, .content2-texto, .content3-texto, .content4-texto {
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
@@ -56,7 +55,6 @@ body{
     text-align: justify;
     font-size: 18px;
 }
-
 .img1, .img2, .img3, .img4 {
     /*flex-direction: row;*/
     min-width: auto;
@@ -73,8 +71,7 @@ body{
 }
 .button {
     display: flex;
-    /*position:fixed;*/
-    position: absolute;
+    position:absolute;
     right: 20px;
     width: 300px;
     height: 60px;
@@ -110,7 +107,5 @@ body{
     background-color: #462D59;
     box-shadow: 0 2px #666;
     transform: translateY(4px);
+
 }
-@media (max-width: 548px);
-    @media (max-width: 548px);
-        @media (max-width: 548px);
