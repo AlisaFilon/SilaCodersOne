@@ -30,6 +30,7 @@ body{
 /* CONTENIDO */
 .contenedor {
     flex-wrap: wrap;
+    margin: 5%;
 }
 .service {
     display: flex;
