@@ -145,3 +145,11 @@ body{
 #links-g {
     margin-left:4px;
 }
+@media (min-width:320px, max-width:480px) {
+    .button {
+        display: none;
+        max-width: 100%;
+        height: auto;
+    }
+
+}
