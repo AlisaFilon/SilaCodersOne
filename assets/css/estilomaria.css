@@ -77,14 +77,19 @@ body{
 .nombre {
     display:flex;
     flex-direction: column;
-    font-family: 'Baloo Bhaina 2', cursive;
+    font-family: 'Raleway', sans-serif;
     margin: 30px;
+
 }
 .descrip {
-    font-family: 'Baloo Bhaina 2', cursive;
+    font-family: 'Raleway', sans-serif;
     margin: 30px;
     font-size: 20px;
     justify-content: center;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
 }
 
 .imagenes{
