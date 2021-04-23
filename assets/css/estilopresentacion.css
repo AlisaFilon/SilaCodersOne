@@ -19,6 +19,7 @@ body{
     background-color: #5F3F78;
     height: 60px;
     display: flex;
+    width: auto;
 }
 .logo {
     display: flex;
@@ -70,24 +71,8 @@ body{
     background-color: #462D59;
     box-shadow: 0 2px #666;
     transform: translateY(4px);
-}
 
-.menuburger {
-    padding: 20px;
-    position:fixed;
-    right: 0px;
 }
-
-@media(max-width: 548px){
-     {
-        display:none;
-    }
-}
-
-@media (min-width:548px) {
-     { display: none;}
-}
-
 
 /*DESCRIPCION*/
 .descripcion {
@@ -163,6 +148,14 @@ body{
 #links-g {
     margin-left:4px;
 }
+<<<<<<< HEAD
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .button{
+        ;
+    }
+}
+=======
 @media (min-width:320px, max-width:480px) {
     .button {
         display: none;
@@ -171,3 +164,4 @@ body{
     }
 
 }
+>>>>>>> 0607e5b5fa7c03abf66d613d27915974eb61b5ee
