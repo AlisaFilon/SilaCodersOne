@@ -1,50 +1,17 @@
-
-body{
-    margin:auto;
-    height: 100%;
+body {
+    height: 800px;
     width: 100%;
-    min-height: 100%;
-    min-width: 100%; 
-    max-width: 100%;
-    max-height: 100%;
-    background-color: black;
+    margin: 0px;
 }
 .backgroundimg {
-    position: fixed;
-    z-index: 1;
-    background-image: url(/assets/profiles/assets/nicole-imagen/dota2bg.jpg);
+    background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80");
+    height: 50%;
     background-size: cover;
+    width: 50%;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    filter: blur(2px);
-    opacity: 0.30;
 }
-.container {
-    position: fixed;
-    z-index: 999;
-}
-.presentationbox{
-    display: flex;
-}
-.presentation-image{
-    max-width: 100%;
-    max-height: 100%;
-    min-width: auto;
-    min-height: auto;
-    width: 250px;
-    height: 250px;
-    display: flex;
-    justify-content: space-evenly;
-    border: 0 px solid black;
-    border-radius: 500px;
-    border: 1px ;
-}
-.presentation-text h1{
-    color: white;
-    font-family: 'Dela Gothic One', cursive;
-}
-.presentation-text p{
-    color: white;
-    font-family: 'Dela Gothic One', cursive;
+.aboutmebox {
+    height: 50%;
+    background-color: #666666;
+
 }
