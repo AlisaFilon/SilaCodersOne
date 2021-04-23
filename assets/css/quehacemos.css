@@ -46,15 +46,14 @@ body{
     font-weight: bolder;
     margin-left:20px;
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 /*Параграф*/
 .content1-texto p, .content2-texto p, .content3-texto p, .content4-texto p {
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
     position: static;
     text-align: justify;
-    font-size: 20px;
+    font-size: 22px;
 }
 .img1, .img2, .img3, .img4 {
     /*flex-direction: row;*/
