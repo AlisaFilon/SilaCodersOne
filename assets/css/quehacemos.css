@@ -54,7 +54,7 @@ body{
     font-weight: bold;
     position: static;
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
 }
 .img1, .img2, .img3, .img4 {
     /*flex-direction: row;*/
@@ -88,7 +88,7 @@ body{
     color: #D7D6D5;
 
 }
-.quienessomos , .volveratras {
+.volveratras , .quehacemos {
     padding: 15px 32px;
     transition-duration: 0.4s;
     background-color:#5F3F78;
