@@ -5,7 +5,7 @@
 
 
  ## Herramientas que hemos usado: 
-> - www. figma .com 
+> - www . figma .com 
 > 	- (Prototyping)
 > - IntelliJ IDEA Ultimate
 > 	- (Coding)
@@ -13,7 +13,7 @@
 > 	- (Reunions)
 > - Slack
 > 	- (Communication)
-> - www. mural .com 
+> - www . mural .com 
 > 	- (User stories)
  
 
