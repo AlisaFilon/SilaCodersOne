@@ -1,7 +1,7 @@
-# Sila Coders One
+# WEEK#1 { Sila Coders One }
 
 
-### Hola, somos un grupo de chicas empezando a tocar código en un curso formativo de ***Factoria F5*** llamado ***#FemTech***  
+### Hola, somos un grupo de chicas empezando a tocar código en un curso formativo de ***FactoriaF5*** llamado ***#FemTech***  
 
 
  ## Herramientas que hemos usado: 
@@ -12,7 +12,7 @@
 > - Zoom
 > 	- (Reunions)
 > - Slack
-> 	- (Communication)
+> 	- (Offline communication)
 > - www . mural .com 
 > 	- (User stories)
  
