@@ -5,15 +5,15 @@
 
 
  ## Herramientas que hemos usado: 
-> - Figma 
+> - www. figma .com 
 > 	- (Prototyping)
-> - IntelliJ IDEA 
+> - IntelliJ IDEA Ultimate
 > 	- (Coding)
 > - Zoom
 > 	- (Reunions)
 > - Slack
 > 	- (Communication)
-> - Mural 
+> - www. mural .com 
 > 	- (User stories)
  
 
